@@ -68,3 +68,14 @@ Para crear un pull request primero debo realizar un fork, después clonar el rep
 Si quiero que un archivo binario u otro tipo de archivo no se cargue a github debo crear un .gitignore.
 
 Cuando realizo un rebase primero lo hago de la rama que quiero eliminar y después de la rama main.
+
+Un git stash me permite recuperar los cambios me permite poner en pausa un cambio al que no se le ha realizado un commit.
+Despues con git stash pop vuelvo a hacer visible el cambio y lo puedo solucionar.
+Si uso un stash hacia una rama crea esa branch y realiza los cambios alli. con git stash branch nombre de la branch.
+Tambien puedo hacer un git stash drop para efectuar el cambio.
+
+Git clean --dry-run me muesta los archivos que se van a eliminar al aplicar un git clean.
+
+Git clean -f me limpia archivos a los cuales no les he hecho commit y que git lee como un error.
+
+git cherry-pick con el hash integra un commit unico de una rama alterna a la main.
