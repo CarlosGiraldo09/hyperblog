@@ -45,6 +45,8 @@ git merge → Combina ramas
 
 git config → Para saber mi configuración de git bash en local
 
+Git k → muestra los commits de forma grafica
+
 Esc shift ZZ → cierra interfaz de agregar nombre de un commit
 
 git remote add origin → creó un repositorio remoto
@@ -79,3 +81,21 @@ Git clean --dry-run me muesta los archivos que se van a eliminar al aplicar un g
 Git clean -f me limpia archivos a los cuales no les he hecho commit y que git lee como un error.
 
 git cherry-pick con el hash integra un commit unico de una rama alterna a la main.
+
+Git --amend me permite remndar dos cambios a un solo commit
+
+git reflog → me muestra un historial de los commits de forma mas precisa
+
+git grep palabra → me muestra los lugares donde use palabra.
+
+git log -S palabra → muestra los commits filtrandolos por la palabra.
+
+git short log -sn → me muestra quien hace los commits.
+
+git blame -c palabra → me muestra quien modifico que por ultima vez.
+
+git branch -r → me permite ver las ramas remotas.
+
+git comando --help → me muestra los comandos de git
+
+git config --global alias.platzi "palabra" → crea un alias en git de palabra.
